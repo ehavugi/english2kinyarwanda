@@ -1,4 +1,0 @@
-{ "verb":"root", "eat":"ri","move":"gend","command":"tegek","pray":"seng","play":"kin","teach":"igish","study":"ig",
-
-
-}
