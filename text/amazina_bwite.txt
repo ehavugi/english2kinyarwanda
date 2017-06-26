@@ -1,0 +1,6 @@
+##a way to add Names that should be capitalized (on post processing of the translation), etc
+
+#Havugimana
+Emmanuel
+Hagenimana
+Habarurema
