@@ -1,0 +1,35 @@
+## Suppose, a person know about english and can get what is a verb, what is a subject and object, etc. 
++ 	You hand him a text that is in both languages and a large text body in either of the language . 
++ 	the Large text body in His language "english" has patterns that he may have already figure out and may be 
++	tempted to use the same patterns ---(which at basic level may be a simple word for word replacements)..
+
++	later, he/she may notice that the simple word for word is not confirming to new language structure based on 
++	that the monalingual text is saying about for example the can notice that (in the new language the word for 
++	verb always comes before that for subject and may conclude that he has to do it that way)
+## Is it possible to model this?
+I guess that it should be possible with a basic dictionary, a cross-translated text, and monolingual texts that are available.. (
+###but how can it reach the performance level of human?)
++ first for a machine to be as good, it gonna need to need less data and some initial biasis (as rules), that can be defaulted
++ Learn by difference and construct dictionaries from experiences (but const)
+
+
+say 
+	##Python inspired pseudocode
+
+	for each line or paragraph in text_cross_translated:
+		 find texts that are have confirmed translations or dictionary equivalences
+		 	replace return them:
+		 		if the remaining texts has plural forms
+		 			make them singular and find if their singular exists in the other language:
+		 				if they do, do the plural in other language and return the text in plural
+		 					in monolingual text 
+
+
+	but some languages have parts that are attached to others like Kinyarwanda (for example tense markes, subject markers,etc) 
+		are attached to stem?
+			how to notice this stuff computationally?
+				can be guided by rules(@ beginning )
+					
+
+
+		
