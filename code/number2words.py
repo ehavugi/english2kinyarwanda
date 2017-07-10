@@ -21,8 +21,8 @@ basic0={"0":"zero","1":"rimwe","2":"kabiri","3":"gatatu", "4":"kane","5":"gatanu
 basic3={"1":"kimwe","2":"bibiri","3":"bitatu","4":"bine","5":"bitanu","6":"bitandatu","7":"birindwi","8":"umunani","9":"icyenda"}
 basic6={"1":"imwe","2":"ebyiri","3":"eshatu","4":"enye","5":"eshanu", "6":"esheshatu","7":"zirindwi","8":"umunani","9":"icyenda"}
 basic9=basic6
-basic12=basic
-tens={"0":"", "1":"icumi","2":"makumyabiri","3":"mirongo itatu","4":"mirongo6 ine","5":"mirongo itanu",
+basic12=basic6
+tens={"0":"", "1":"icumi","2":"makumyabiri","3":"mirongo itatu","4":"mirongo ine","5":"mirongo itanu",
 		"6":"mirongo itandatu","7":"mirongo irindwi","8":"mirongo inani","9":"mirongo icyenda"}
 hundreds={"0":"", "1":"ijana","2":"magana abari","3":"managana atatu","4":"magana anane","5":"magana atanu",
 			"6":"magana atandatu","7":"magana arindwi","8":"magana umunani","9":"magana icyenda"}
@@ -99,7 +99,7 @@ def amajana(inputs,urugero=0):
 				return(hundreds[str(inputs[0])])
 			else:
 				return (hundreds[str(inputs[0])]+" na "+tens[str(inputs[1])])
- 		if int(inputs[2]) in [8,9]:
+		if int(inputs[2]) in [8,9]:
 			if int(inputs[1])==0:
 				return(hundreds[str(inputs[0])]+" n'"+ basic[urugero][str(inputs[2])])  ## A person can also implement punctuation rules a different manner
 			else:
@@ -244,6 +244,10 @@ def speak(number):
 	return 
 
 
+
+
+
+
 # print(amajana("999"),999)
 # for i in range(100000,120000):
 # 	print (i, ":" , miliyoni(i))
@@ -259,4 +263,74 @@ def speak(number):
 
 # for i in range(9990,1000000000000000,100000000000):
 # 	print(tiliyoni(i),":", i)
-print(tiliyoni(12))
+#print(tiliyoni(12))
+
+
+"""
+Numbers in English
+
+
+"""
+units=["zero","one","two","three","four","five","six","seven","eight","nine"]
+uniteen=["eleven","twelve","thirteen","fourteen","fifteen","sixteen","seventeen","eighteen","nineteen"]
+tens2=["twenty","thirty","fourty","fifty","sixty","seventy","eighty","ninety"]
+
+def up100(number, country="us"):
+	number=str(number)
+	#assert len(number)>0
+	number=str(number)
+	assert len(number)<3 
+	if number[0]=="0" and len(number)>1:
+		number1=number[1:]
+		return up100(number1)
+
+
+	if len(number)==1:
+		return units[int(number)]
+	if len(number)==2:
+		if  number[0]=="1":
+			if number[1]=="0":
+				return "ten"
+			return  uniteen[int(number[1])-1]
+		if number[1]=="0":
+			return tens2[int(number[0])-2]
+		return tens2[int(number[0])-2]+"-"+ units[int(number[1])]
+def up1000(number, country="us"):
+	number=str(number)
+	assert len(number)<4
+	if number[0]=="0" and len(number)>1:
+		number1=number[1:]
+		return up1000(number1)
+	if len(number)<3:
+		return up100(number)
+	def countryness_and(country):
+		if country=="uk":
+			return " and "
+		else:
+			return ""
+	if number[1:]=="00":
+		return units[int(number[0])]+ " hundred "
+	return units[int(number[0])]+ " hundred "+ countryness_and(country)+ up100(int(number[1:]))
+def thousands(number, country="us"):
+	number=str(number)
+	assert len(number)<7
+	if number[0]=="0" and len(number)>1:
+		number1=number[1:]
+		return thousands(number1)
+	if len(number)<4:
+		return up1000(number)
+	return up1000(number[:len(number)-3])+ " thousand " + up1000(number[len(number)-3:])
+def million(number,country="us"):
+	number=str(number)
+	assert len(number)<10
+	if len(number)<7:
+		return thousands(number,country)
+	if number[len(number)-6:]=="000000":
+		return thousands(number[:len(number)-6])+ " million"
+	return thousands(number[:len(number)-6])+ " million " + thousands(number[len(number)-6:])
+
+# for i in range(1000000,100000000):
+# 	print(i, " : ", million(i)," \n"," "*len(str(i)) ,":", miliyari(i))
+
+
+
