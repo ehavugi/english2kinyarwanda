@@ -23,6 +23,9 @@ testing_features.py
 + Error?
 	+ make sure you have imported all neccessary code
 		+ from code.number2words import *, inport everything in number2words(including bugs if any)
+	+install any missing lib
+		+BS4
+		+NLTK(if used)
 
 
 
