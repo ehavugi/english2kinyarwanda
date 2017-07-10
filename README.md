@@ -4,7 +4,7 @@
 
 1. Detecting kinyarwanda_ness of txt by using ratio consonant combinations that confirm to kinyarwanda consonant constraints(ibihekane)
 2. Autogenerating numbers wording in order of 10^15(Kinyarwanda), and English(10^6)
-	+ test kinyarwanda number2word at [havugimana count](https:g.havugimana.com//count/100), change the numeric value and see the output
+	+ test kinyarwanda number2word at <https://g.havugimana.com//count/1010000>, change the numeric value and see the output
 3. Autoconjugating (present, past, and future) in kinyarwanda ---template()
 4. Plural formation(kinyarwanda) --still in development(it can be used as noun class detector with some tweak)
 
