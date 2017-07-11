@@ -85,7 +85,6 @@ amagambo=["urugo","urugero","umwana","ikinyarwanda",
 "arakora","ndakora","urakora",
 "umugabo","umugora","umwigisha","umusaza","umukiza","yange","wange","wandebeye"]
 
-for ijambo in amagambo:
-	print(ijambo +" ==> "+ubwinshi(ijambo))
+
 
 

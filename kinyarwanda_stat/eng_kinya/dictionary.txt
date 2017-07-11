@@ -1,0 +1,94 @@
+{"words":{"Firefox":"firefoxi",
+"Mozzila":"Mozira",
+"logo":"ikirango",
+"welcome":"urakaza neza",
+"about":"ibyerekeye",
+"history":"amateka",
+"options":"amahitamo",
+"preference":"ibyatoranyizwe",
+"close":"funga",
+"language":"ururimi",
+"ok":"yego",
+"no":"oya",
+"man":"umugabo",
+"woman":"umugore",
+"boy":"umuhungu",
+"girl":'umukobwa',
+"boys":'abahungu',
+"girls":"abakobwa",
+"women":"abagore",
+"men":'abagabo',
+
+},
+"phrases":{
+     "Terms of Service":"Amabwiriza ya serivisi",
+     "good morning":"mwaramutse",
+     "hello":"muraho",
+     "what's the news":'amakuru ?',
+     "good-bye":"muririrweho",
+     "good night":"muraramkukeho",
+     "thank you":"murakoze",
+     "thank you":"ndagushimiye",
+     "what do you want":"urashaka iki ?",
+     "what is this ?":"iki ni iki ?",
+     "goodbye":'murabeho'  ,
+     "where do you come from ?":"uturuka he ?",
+     "where are you going ?":"urajya he ?",
+     "where are you going ?":"uragana he ?",
+     "continue":"komeza",
+     "keep on":"komeza",
+     "do it again":"ongera",
+     "say it again":"ongera",
+     "stop, that's enough":"rekeraho",
+     "wait!":"buretse",
+     "stop!":"buretse",
+     "try":"gerageza",
+     "help me":"mfasha",
+     "come here":"ngwino",
+     "where is the book":"igitabo kiri he ?",
+     "I want to learn kinyarwanda":"ndashaka kwiga ikinyarwanda",
+
+
+},
+
+"verbs":{
+	"close":"fung",
+	"open":"fungur",
+	"Minimize":"tuby",
+	"bring":"zan",
+	"change":"hindur",
+	"teach":"igish",
+	"study":"ig",
+	"pray":"seng",
+	"hide":"hish",
+	"work":"kor",
+	"select":'hitamo',
+	"pause":"hagarar",
+
+},
+
+"languages":{
+"kinyarwanda":"ikinyarwanda",
+"swahili":"igiswahili",
+"english":"icyongereza",
+"french":"igifaransa",
+"spanish":"icyesipanyoro",
+"arabic":"icyarabu",
+"hebrew":"igiheburayo",
+
+	
+},
+
+"countries":{
+	
+},
+
+"cities":{
+	
+},
+"special":{
+	"and":"",
+	"but":"",
+}
+
+}

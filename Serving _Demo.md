@@ -1,6 +1,9 @@
-### MIT scripts services for developmente
-## It can try to have the scripts on MIT servers
-	I am going to experiment setting up a django server, or other way around to access demo on web and try out
+# domain name
+As I am expecting to shift or change servers over time, I am bind a subdomain to a translation server that I am currently using 
+# Server:: 
+## Google App engine
+1. For handling requests for example : <https://pro-core-148422.appspot.com/count/100>
+2. Currently using webapp2 
+## scripts@mit
+1. Have failed to set up a django server, I will try again on campus
 
-
-Eg: http://tig.csail.mit.edu/wiki/TIG/DjangoApplications

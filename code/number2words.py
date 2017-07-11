@@ -62,7 +62,7 @@ def spell(inputs):
 	number=len(str(inputs))
 	print(number)
 	for i in str(inputs):
- 		print(basic[str(i)])
+ 		print(basic[int(i)-1])
 
 
 def amajana(inputs,urugero=0):

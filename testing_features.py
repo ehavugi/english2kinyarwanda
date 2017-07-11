@@ -6,63 +6,74 @@
 
 #kinya1=open("kinya1.txt").readlines() (encoding errors for texts copied from PDF document)
 
-#from code.number2words import *
-from code.kinyarwanda_test import *
+from code.number2words import *
 #from code.making_kinyarwanda import *
 from code.EnglishTagging import *
-#from code.
-
-#from kinyarwanda_test import *
-#from making_kinyarwanda import *
-#from kiny_scraping import *
-
+from code.ubuke_ubwinshi import *
 
 #from translator import  translate,eng2Kin,kin,eng
-
-
-#translate("I would like a ro *bust way to translate english to kinyarwanda. it would be neat",eng2Kin)
-
-#from number2words import  * 
-
 adj=open("text/adj.txt").readlines()
-kinyarwanda_bible=open("text/bysb.txt", encoding="utf8").readlines()
-
+kinyarwanda_bible=open("text/bysb.txt", encoding="utf8").read()
+english_bible=open("text/kjv.txt",encoding="utf8").read()
 umushyikirano=open("text/umushyikirano.txt",encoding="utf8").read()
-# s2=open("s2.txt", encoding="utf8").readlines()
-# s5=open("s5.txt", encoding="utf8").readlines()
-# s3=open("s3.txt", encoding="utf8").readlines()
-# microEcon=open("micro_economics.txt", encoding="utf8").readlines()
-# principles=open("principles.txt",encoding="utf8").readlines()
 amategeko=open("text/amategeko.txt",encoding="utf8").readlines()
 
 
-#spell(4545)  ## how can it support different formats, integers,strings of numbers, list of numbers,or another format
-
-# print(ibihumbi("844347"),"84347")
-# print(amajana("45",1))
-# print(miliyoni("456674"))
+#print(spell(4545))  
 kinyarwanda_text="inyarwanda ni ururimi rw' abanyarwanda  ruvugwa mu Rwanda hafi ijana kw' ijana".split()
 english_text="English is a  great language that is spoken by many persons accross the globe".split()
 
-print("English adjectives", kinyarwanda_level(adj))
+# print("English adjectives", kinyarwanda_level(adj))
 # print("principles by Bridgewater dude", kinyarwanda_level(principles))
-print( "A mix of French, Kinyarwanda and English", kinyarwanda_level(amategeko))
-print(ni_igihekane("nzw"))
+#print( "A mix of French, Kinyarwanda and English", kinyarwanda_level(amategeko))
+#print(ni_igihekane("nzw"))
 
 
-classs=[ ["umu","umw"],["aba","ab"],["umu","umw"],["imi","imy"],["i","iri"],["ama","am"],["iki","icy","igi"],["ibi","iby"],["i","in","inz"],['uru',"urw"],["aka","ak","aga"],["utu","utw","udu"],["ubu","ubw"],["uku","ukw",'ugu'],["aha","ah"]]
-for line in kinyarwanda_bible:
-	line=line.strip().lower()
-	#print(line)
-	for word in line.split() :
-		if len(word)>4 :
-			#print(line)
-			for x in classs:
-				for y in x:
-					if word.startswith(y):
-						print(word, " : ", y)
-			else:
-				continue
-				#print("plural : ", word, " singular : ",word.replace('ab',"umu") )
+#classs=[ ["umu","umw"],["aba","ab"],["umu","umw"],["imi","imy"],["i","iri"],["ama","am"],["iki","icy","igi"],["ibi","iby"],["i","in","inz"],['uru',"urw"],["aka","ak","aga"],["utu","utw","udu"],["ubu","ubw"],["uku","ukw",'ugu'],["aha","ah"]]
 
-#print(miliyoni(1))
+
+
+print(miliyoni(100))
+number32=10060
+# for i in range(109990):
+# 	number32=i*89
+# 	print(million(number32))
+count_id=7803465
+	
+print('{'+'"number"'+":"+'"'+str(number32) +'", "rw": "'+ miliyoni(number32) +'", ' +' "en": "'+million(number32).strip()+'"}')
+print('{'+'"number"'+":"+'"'+str(count_id) +'", "rw": "'+ miliyoni(count_id) +'", ' +' "en": "'+million(count_id).strip()+'"}')
+#print('{'+'"number"'+":"+'"'+ '%s'  +'", "rw": "'+ '%s' +'", ' +' "en": "'+'%s'+'"}'%(str(count_id),miliyoni(count_id),million(count_id).strip()))
+print(thousands(100))
+#import re
+#word_lists=[]
+#kinya_word_list=open("text/kinya_word_list.txt", 'w')
+#adverb=re.findall(r"\w+ly", english_bible)
+
+# for word in kinyarwanda_bible.split():
+
+# 	#for word in sentence.split():
+# 		#a=word in word_list
+#  		#if word in word_list:
+# 			# print(word)
+# 	word_lists=word_lists+[word]
+	#print(word)
+#print(len(word_lists))
+
+## I can just keep word for adjectives or etc and get most of adverbs 
+## I can then implement its kinyarwanda adverb()
+## or the other way around
+## levering the power of regex 
+def kinyarwanda_decomposition(word):
+	### use the power of regular expressions to bring forth indomo+umusozo+root+other particles on text
+	##using recognized set of roots(that can be manually or ...updated)
+	##
+	return 
+		
+# for  i in adverb:
+# 	a=i[:len(i)-2]
+# 	if a[len(a)-1]=="i":
+# 		a=a[:len(a)-1]+"y"
+# 	print(a, i)
+print(ubwinshi("igare"))
+# for ijambo in amagambo:
+# 	print(ijambo +" ==> "+ubwinshi(ijambo))

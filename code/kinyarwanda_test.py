@@ -80,7 +80,17 @@ def kinyarwanda_level(texts):
 				count+=1
 			else:
 				continue
-	return count/total 
+	try:
+		return count/total 
+	except:
+		if len(texts)>=3:
+			for i in texts:
+				if not(i in consonants+vowels):
+					return 0
+			return 1
+		else:
+			return 0
+
 
 # print(kinyarwanda_level(["English is great language"]))
 #print(kinyarwanda_level(["Ikinyarwanda ni n'icya mbere"]))
