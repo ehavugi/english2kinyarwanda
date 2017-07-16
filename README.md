@@ -17,6 +17,7 @@
 # for testing features (use,edit)
 
 testing_features.py
+
 + edit testing_features by uncommenting and commenting
 + print(function_number(input))
 	+ print(thousands(100)) ===> one hundred 
@@ -26,6 +27,14 @@ testing_features.py
 	+install any missing lib
 		+BS4
 		+NLTK(if used)
+
++ No need to install for testing some features:
+	+ g.havugimana.com/count/224
+		+ works for numbers and return wording for a number(this case 224)
+	+ g.havugimana.com/ubwinshi/icyuki
+		+ return the plural form of word icyuki
+			+ currently in development
+			+ You can look at the code and suggest tweaks
 
 
 
