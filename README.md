@@ -29,9 +29,9 @@ testing_features.py
 		+NLTK(if used)
 
 + No need to install for testing some features:
-	+ g.havugimana.com/count/224
+	+ <http://g.havugimana.com/count/224>
 		+ works for numbers and return wording for a number(this case 224)
-	+ g.havugimana.com/ubwinshi/icyuki
+	+ <http://g.havugimana.com/ubwinshi/icyuki>
 		+ return the plural form of word icyuki
 			+ currently in development
 			+ You can look at the code and suggest tweaks
