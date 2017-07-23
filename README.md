@@ -31,7 +31,7 @@ testing_features.py
 + No need to install for testing some features:
 	+ <http://g.havugimana.com/count/224>
 		+ works for numbers and return wording for a number(this case 224)
-	+ <http://g.havugimana.com/ubwinshi/icyuki>
+	+ <http://g.havugimana.com/ubwinshi/umunyeshuri>
 		+ return the plural form of word icyuki
 			+ currently in development
 			+ You can look at the code and suggest tweaks
