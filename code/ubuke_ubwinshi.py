@@ -1,3 +1,4 @@
+from making_kinyarwanda import uturemajambo
 def word_in_kinyarwanda(word):
 		return False
 def post_processor(word):
@@ -7,42 +8,24 @@ def post_processor(word):
 	## I don't have its occurance in literature(in my database)
 	if not is_kinyarwanda(word):
 		return uturemajambo(word)## syntax wise
-	if word_in_kinyarwanda(word):
-		return word
 	else:
 		return word
 		#do something else
 ## it seems to me away to first decompose the word and then do analysis after can be better
-def ubwinshi(ijambo):
-	"""should take a word (ijambo) in singular and return its plural form"""
-	if ijambo=="wa":
-		return "ya"  ##Or ba (depending class of nearby word)
-	if ijambo.startswith("si"):
-		return "si"+ubwinshi(ijambo[2:])
-	if ijambo.startswith("ubw") or ijambo.startswith("ubu"):
-		## ubwoko ==> amoko, ubwato==>amato,etc
-		return "ama"+ijambo[1:]
-	if ijambo.startswith("umu") or ijambo.startswith("umw"):
-		##umwana==> abana, umwami==>abami
-		## umunyeshuri==>abanyeshuri
-		ijambo1="aba"+ijambo[3:]
-		ijambo2="imi"+ijambo[3:]
-		if word_in_kinyarwanda(ijambo2):
-			return ijambo2
-		else: return ijambo1
-	if ijambo.startswith("igi") or ijambo.startswith("iki"):
+replacements0={"wa":"ya", 	"ubw":"ama",	"ubu":"ama","umu":"aba","umwa":"aba",
+"ig":"ib","nda":"tura","yange":"zange","m":"","ik":'ib',"ura":"mura",
+"ar":"bara","icy":"iby","aka":"utu"}
 
-		##Igikorwa==>ibikorwa, igiti ==>ibiti
-		#igice ==> ibice
-		#igiti ==>ibiti
-		return "ibi"+ijambo[3:]
-	if ijambo.startswith("icya"):
-		return "ibya" +ijambo[4:]
+
+def ubwinshi1(ijambo):
+	"""should take a word (ijambo) in singular and return its plural form"""
+	#pronouns=
+	for i in replacements0:
+		if ijambo.startswith(i):
+			return ijambo.replace(i,replacements0[i])	
 	
 	if ijambo.startswith("uku"):
 		return "ama"+ijambo[3:]
-	if ijambo.startswith("ak"):
-		return "utu"+ijambo[3:]
 	if ijambo.startswith("in"):
 		return ijambo
 	if ijambo.startswith("uru"):
@@ -59,32 +42,38 @@ def ubwinshi(ijambo):
 		return "mu"+ijambo[1:]
 	if ijambo.startswith("n"):
 		return "tu"+ijambo[1:]
-	if ijambo.startswith("ara"):
-		return "bara"+ijambo[3:]
-	if ijambo.startswith("ura"):
-		return "mura"+ijambo[3:]
-	if ijambo.startswith("nda"):
-		return "tura"+ijambo[3:]
+	
+	
 	if ijambo[0] in ["ioeau"]:
 		return ijambo[0]+ubwinshi(ijambo[0:])
+	# if "da"==ijambo[1:3]
 	
 	else:
-		return ""
+		return ijambo
 
 
+def ubwinshi(word):
+	return uturemajambo(ubwinshi1(word))
 
 
+amagambo={"urugo":"ingo","urugero":"ingero","umwana":"abana",
+"ikinyarwanda":"ibinyarwanda","icyaha":"ibyaha","umuntu":"abantu","icyayi":"ibyayi",
+"ubwato":"amato","icyabitse":"ibyabitse","icyebo":"ibyebo","igitabo":"ibitabo",
+"urakora":"murakora","inyungu":"inyungu","inyoni":"inyoni","inka":"inka",
+"umugabo":"abagabo","arakora":"barakora","ndakora":"turakora","urakora":"murakora","imana":"imana"}
 
-amagambo=["urugo","urugero","umwana","ikinyarwanda",
-"ndagushimiye","urashaka","icyaha","umuntu",
-"icyayi","ubwato","icyabitse"
-,"icyebo","igitabo",'urakora',"sinumva","ariko",
-"inyugu","inyoni","inka",
-"mfasha"
-"umugabo","umugore","umusore",'umukobwa',
-"arakora","ndakora","urakora",
-"umugabo","umugora","umwigisha","umusaza","umukiza","yange","wange","wandebeye"]
 
+examples={"umuntu":"abantu","ikintu":'ibintu',"ahantu":"ahantu","icyatsi":"ibyatsi"}
+count=0
+total=0
+for x in amagambo.keys():
+	total=1+total
+	if ubwinshi(x)==amagambo[x]:
+		count+=1
+	else:
+		print(x,ubwinshi1(x),ubwinshi(x))
+
+print(count/total)
 
 
 

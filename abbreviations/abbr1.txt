@@ -1,0 +1,42 @@
+MDR: Mouvement Démocratique Républicain 
+PDC : Parti Démocratique Chrétien 
+PSD : Parti Social Démocratique 
+PDI : Parti Démocratique Islamique 
+FPR : Front Patriotique Rwandais
+PL : Parti Libéral
+UDPR : Union Démocratique du Peuple Rwandais 
+PSR : Parti Socialiste Rwandais
+PPC : Parti pour le Progres et la Concorde 
+APROSOMA : Association pour la Promotion Sociale de la Masse 
+UNAR: Union Nationale Rwandaise
+RADER : Rassemblement Democratique Rwandaise
+PARMEHUTU : Parti du Mouvement de l’Emancipation des Bahutu 
+ABAKI : Alliance des Bakiga
+ABESC : Association des Bahutu evuluant pour la suppression des castes
+ACR : Association des Cultivateurs du Rwanda
+APADEC : Association du Parti Democrate Chretien
+APROCOMIN : Association des Commerçants Indigenes
+AREDETWA : Association pour le Relevement Democratique des Batwa
+ARUCO : Alliance du Ruanda - Urundi et du Congo
+ASSERU : Association des Eleveurs du Rwanda
+MOMOR : Mouvement Monarchiste Rwandais
+MUR : Mouvement pour 1'Union Rwandaise
+PAMOPRO  : Parti Monarchiste Progressiste
+PSCR : Parti Social Chrétien du Rwanda
+UAARU : Union des Aborozi Africains du Rwanda
+UMAR :  Union des Masses Rwandaises
+UNAFREUROP : Union Afro-Europeenne
+UNINTERCOKI : Union des Intérêts Communs du Kinyaga
+
+
+BK : Banque de Kigali
+BRD : Banque Rwandaise de Développement
+I&M : bank Rwanda
+COGEBANQUE : Compagnie Générale de Banque
+BCR : Banque Commerciale du Rwanda
+BHR : Banque de l'Habitat du Rwanda
+BPR : Banque Populaire du Rwanda 
+UOMB : Urwego Opportunity Microfinance Bank
+PBR : Banque Populaire du Rwanda
+KCB : Kenya commercial bank 
+

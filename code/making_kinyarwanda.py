@@ -58,6 +58,8 @@ def uturemajambo(constructed_word):
 		word=word.replace("ia","ya")
 	if "ua" in constructed_word:
 		word=word.replace("ua","wa")
+	if "uu" in constructed_word:
+		word=word.replace("uu","wu")
 	if "xy" in constructed_word:
 		return "do this, that"
 	if "io" in constructed_word:
@@ -67,7 +69,7 @@ def uturemajambo(constructed_word):
 	if "nr" in constructed_word:
 		word=word.replace("nr","nd")
 	if "aa" in constructed_word:
-		word=word.replace("aa","ya")
+		word=word.replace("aa","a")
 
 	## iyandika bihekane  (n)kw,(n)gw,hw --o,u
 	if "kwo" in constructed_word :
@@ -121,10 +123,10 @@ def kiny_conjugate(stem,subject="a", objects="",tense="present",ending="a"):
 
 possible_tenses=["present","past","future"]
 
-for verb in kinya_regular:
+# for verb in kinya_regular:
 
-	for a in subjects_rw:
-		#continue
-		for tense in possible_tenses:
-				#continue
-				print (a, verb,tense,":" , kiny_conjugate(verb,a,"",tense))
+# 	for a in subjects_rw:
+# 		#continue
+# 		for tense in possible_tenses:
+# 				#continue
+# 				print (a, verb,tense,":" , kiny_conjugate(verb,a,"",tense))

@@ -1,0 +1,196 @@
+I : jye, jyewe, jyeweho
+you :wowe
+he : we  
+we : twebwe
+you :mwebwe
+they : bo, ba-
+this: aha, aka, iki, iri, ubu, uku, uru, uyu, aya, iyi
+that: aho, ako, icyo, iryo, uko, urwo, uwo
+here: aha, hano, ino
+there: aho, -yo, -ri, -ho, -mo
+who:nde?
+what:iki?,-ki?
+where:-he? -hehe? aho
+when:ryari? ubwô
+how:-te? uko, ukuntu
+not:nta, si
+all:-ose, -se
+many:-inshi iînshi
+some:-mye, -mwe
+few:-ke, -keya
+other:-ndi
+one: limwe
+two:kabili
+three:gatatu, -hatu
+four:kane, yine
+five:-tanu, -hanu
+big:-nini
+long:-re-re
+wide:-gari
+thick:-nini
+heavy:-kuremera, -kuremerwa
+small:-to, -toya
+short: -gufi
+narrow:-gufungana
+thin:-to, -toya
+woman:umugore [umugorê]
+man:umugabo
+human:umuntu [umuuntu]
+child:umwana [umwâana]
+wife:muka [mukâa]
+husband:umugabo
+mother:mama [maamâ]
+father:data [daatâ]
+animal:inyamaswa [inyamâaswa]
+fish:ifi [ifî]
+bird:inyoni
+dog:imbwa [imbwâ]
+louse:inda [indâ]
+snake:inzoka [inzôka]
+worm:inzoka, umunyorogoto *(earthworm)*, urunyo *(maggot)*
+tree:igiti [igitî]
+forest:ishyamba [ishyaamba]
+stick:inkoni
+fruit:imbuto [imbûto]
+seed:imbuto [imbûto]
+leaf:ikibabi
+root:umuzi
+bark *(tree)*:ikirere [ikireere]
+flower:indabyo, ururabyo [ururâbyo]
+grass:icyatsi [icyaâtsi], ubwatsi *(pasture)*
+rope:umugozi
+skin:uruhu
+meat:inyama
+blood:amaraso [amarâso]
+bone:igufwa [igûfwa]
+fat *(n.)*:amavuta [amavûta], ikinure
+egg:igi
+horn:ihembe
+tail:umurizo
+feather:iryorya
+hair:umusatsi
+head:umutwe [umutwê]
+ear:ugutwi [ugutwî]
+eye:ijisho [ijîisho]
+nose:izuru [izûuru]
+mouth:akanwa
+tooth:iryinyo [iryîinyo]
+tongue:ururimi
+fingernail:urwara
+foot:ikirenge [ikireenge]
+leg:ukuguru
+knee:ivi [ivî]
+hand:ikiganza [ikigaanza]
+wing:ibaba [ibabâ]
+belly:inda, igifu, ibondo [iboondo] *(potbelly)*
+guts:amara *(intestines)*
+neck:ishingo, ijosi *(front of neck)*
+back:umugongo [umugôongo]
+breast:ibere
+heart:umutima [umutîma]
+liver:umwijima
+to drink:kunywa [kunywâ], -nywa
+to eat:kurya
+to bite:gushuna, kuruma
+to suck:kunyunguta, kunyunyuza
+to spit:gucira
+to vomit:kuruka
+to blow:guhuha
+to breathe:guhumeka
+to laugh:guseka
+to see:kubona [kubôna]
+to hear:kumva
+to know:kumenya, -zi
+to think:gutekereza, kwibwira
+to smell:guhumuza [guhûumura]
+to fear:gutinya
+to sleep:gusinzira [gusiinziira]
+to live:-baho, kubana, kuba [kubâ] *(to be)*
+to die:gupfa
+to kill:kwica
+to fight:kurwana
+to hunt:guhiga
+to hit:gukubita
+to cut:guca, gukata
+to split:gutanya
+to scratch:gushima
+to dig:gucukura
+to swim:koga
+to fly:kuguruka
+to walk:kugenda [kugeenda]
+to come:kuza [kuuza]
+to lie *(bed)*:kwisegura
+to sit:kwicara [kwiicara]
+to stand:guhagarara
+to turn:guhindukiza
+to fall:kugwa
+to give:guha, guhana, gutanga
+to hold:gufata
+to squeeze:gukamura
+to rub:guhanagura, gusiga *(anoint)*
+to wash:koza
+to wipe:guhanagura
+to pull:gukurura
+to push:gusunika
+to throw:gutera
+to tie:kuboha, gupfundika
+to sew:kudoda
+to count:kubara
+to say:kuvuga, -ti *(saying)*
+to sing:kuririmba
+to play:gukina
+to float:kureremba [kurêreemba]
+to flow:gutemba
+to swell:kubyimba
+sun:izuba [izûuba]
+moon:ukwezi [ukwêezi]
+star:inyenyeri [inyênyeerî]
+water:amazi [amâazi]
+rain:imvura [imvûra]]
+river:uruzi
+lake:ikiyaga
+sea:inyanja
+salt:umunyu [umûunyu]
+stone:ibuye
+sand:Umusenyi
+dust:ivumbi, umukungugu [umukuûngugu]
+earth:igitaka, isi [isî]
+cloud:igicu
+fog:igihu
+sky:ikirere, ijuru *(heaven)*
+wind:umuyaga
+snow:amasimbi
+ice:barafu, urubura
+smoke:umwotsi
+fire:umuriro
+ash:ivu [ivû]
+to burn:gushya, kwaka [kwaaka]
+road:umuhanda [umuhaânda]
+mountain:umusozi [umusôzi]
+red:gutukura
+green:icyatsi kibisi
+yellow:umuhondo
+white:-era
+black:umukara
+night:ijoro
+day:umunsi [umuûnsi]
+year:umwaka [umwâaka]
+warm:-ota
+cold:-konja, -beho
+full:-zura
+new:-shya
+old:-saza
+good:-iza [iizâ]]
+bad:-bi
+rotten:-bora
+dirty:-anda, -ico
+straight:-gororoka, -eguka
+round:-viringa
+sharp *(knife)*:-tyara
+blunt *(knife)*:-tiga
+wet:-bisi [bîsi]
+dry:-uma
+correct:-hana
+near:bugufi, hafi
+far:kure
+right:-ryo
