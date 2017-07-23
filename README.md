@@ -35,6 +35,8 @@ testing_features.py
 		+ return the plural form of word icyuki
 			+ currently in development
 			+ You can look at the code and suggest tweaks
++ word list 
+	+ <http:///www.havugimana.com/rw_word_list.txt> 
 
 
 

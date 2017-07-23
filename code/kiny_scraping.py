@@ -29,7 +29,7 @@ import sqlite3  ## for data basing stuff
 
 #base_url_list=["www.kigalitoday.com/inkuru-zicukumbuye/article/leta-ibitse-akabakaba-miliyari-2rwf-akomoka-ku-mitungo-yasizwe-na-ba-nyirayo" ,"https://rw.wikipedia.org/wiki/Intangiriro","http://ibyamamare.com/indirimbo-10-nshya-zabahanzi-nyarwanda-zigezweho-ushobora-kumva/","http://inyarwanda.com/","http://www.kigalitoday.com/umuco/ikinyarwanda/article/abanyarwanda-baba-muri-malaysia-bagiye-gutora-nyampinga"]  
 #base_url_list=["https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-034-artificial-intelligence-fall-2010/lecture-videos/lecture-1-introduction-and-scope/"]
-base_url_list=["http://igihe.com/umuco/ibitabo/article/uwase-alonga-yamuritse-igitabo-yise-abc-s-of-rwanda-gitatse-ibyiza-by-igihugu#commentsAll"]
+base_url_list=["http://www.bbc.com/gahuza/amakuru-40696922","https://www.jw.org/rw/"]
 urls=[]
 def get_urls(original_url):
 	## should I care much on links in/out (like need to rank?)/
@@ -64,7 +64,7 @@ def store(data):
 
 def clean_online_data(data):
 	return 
-html=get_urls("http://imvahonshya.co.rw/index.php")
+html=get_urls(base_url_list[1])
 #saving=open("text/urls.txt","w")
 #saving=read(saving)
 dictionary=[]
@@ -83,8 +83,12 @@ list2=[]
 for i in html:
 	print (i)
 	listings.append(i)
-	if not(i.startswith("http")):
-		list2.append(get_urls("http://imvahonshya.co.rw/"+i))
+	a=i.split(":")[0]
+	# if not( a!="http") or not (a!="https"):
+	# 	list2.append(get_urls("http://imvahonshya.co.rw/"+i))
+
+
+
 print(list2)
 
 # listings2=[]

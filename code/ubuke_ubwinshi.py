@@ -10,7 +10,7 @@ def post_processor(word):
 		return uturemajambo(word)## syntax wise
 	else:
 		return word
-		#do something else
+		
 ## it seems to me away to first decompose the word and then do analysis after can be better
 replacements0={"wa":"ya", 	"ubw":"ama",	"ubu":"ama","umu":"aba","umwa":"aba",
 "ig":"ib","nda":"tura","yange":"zange","m":"","ik":'ib',"ura":"mura",
