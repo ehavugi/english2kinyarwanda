@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.4.6)  24 JUN 2017 02:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.4.6)  23 JUL 2017 14:32
 entering extended mode
 **"./On English to Kinyarwanda machine translation.tex"
 ("On English to Kinyarwanda machine translation.tex"
@@ -394,7 +394,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 144.
 Here is how much of TeX's memory you used:
  6078 strings out of 493333
  87735 string characters out of 3139151
- 175140 words of memory out of 3000000
+ 175036 words of memory out of 3000000
  9527 multiletter control sequences out of 15000+200000
  11671 words of font info for 46 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -407,7 +407,7 @@ ts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
 public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
 msfonts/cm/cmtt10.pfb>
 Output written on "On English to Kinyarwanda machine translation.pdf" (4 pages,
- 114873 bytes).
+ 115194 bytes).
 PDF statistics:
  108 PDF objects out of 1000 (max. 8388607)
  18 named destinations out of 1000 (max. 500000)
