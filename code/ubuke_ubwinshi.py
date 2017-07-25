@@ -14,7 +14,7 @@ def post_processor(word):
 	else:
 		return word
 		
-## it seems to me away to first decompose the word and then do analysis after can be better
+## it seems to me a way better to first decompose the word and then do analysis after can be better
 replacements0={"wa":"ya", 	"ubw":"ama",	"ubu":"ama","umu":"aba","umwa":"aba",
 "ig":"ib","nda":"tura","yange":"zange","m":"","ik":'ib',"ura":"mura",
 "ar":"bara","icy":"iby","aka":"utu"}
@@ -69,14 +69,14 @@ amagambo={"urugo":"ingo","urugero":"ingero","umwana":"abana",
 examples={"umuntu":"abantu","ikintu":'ibintu',"ahantu":"ahantu","icyatsi":"ibyatsi"}
 count=0
 total=0
-for x in amagambo.keys():
-	total=1+total
-	if ubwinshi(x)==amagambo[x]:
-		count+=1
-	else:
-		print(x,ubwinshi1(x),ubwinshi(x))
+# for x in amagambo.keys():
+# 	total=1+total
+# 	if ubwinshi(x)==amagambo[x]:
+# 		count+=1
+# 	else:
+# 		print(x,ubwinshi1(x),ubwinshi(x))
 
-print(count/total)
+# print(count/total)
 
 
 

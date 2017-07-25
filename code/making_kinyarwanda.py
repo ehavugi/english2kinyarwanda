@@ -3,8 +3,10 @@
 	and compound sentence formation both in Kinyarwanda and English..
 
 """
-
-from kinyarwanda_test import *
+try :
+	from core.kinyarwanda_test import *
+except:
+	from kinyarwanda_test import *
 #from EnglishTagging import *
 ### a person to learn from :: how did he do with kiswahili? can I get his progress by today and inform him any of my progress "http://keshav.is/building/swahili-translator/"
 noun_examples=["umwana","abana","umurima","imirima","iriba","amariba","icyebo","ibyebo","inka","inzuzi","urukwavu","inkwavu",]

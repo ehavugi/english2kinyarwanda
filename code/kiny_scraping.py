@@ -11,11 +11,7 @@
 """
 from kinyarwanda_test import *
 from bs4 import BeautifulSoup  ##Beautifulsoup for cleaning up online data for information
-
-
 import urllib.request # to grab stuff online
-
-
 
 import sqlite3  ## for data basing stuff
 #html_doc=urllib.request.urlopen("http://g.havugimana.com/count/120")
@@ -80,11 +76,11 @@ dictionary=[]
 print("starting paragraph")
 listings=[]
 list2=[]
-for i in html:
-	print (i)
-	listings.append(i)
-	a=i.split(":")[0]
-	# if not( a!="http") or not (a!="https"):
+# for i in html:
+# 	print (i)
+# 	listings.append(i)
+# 	a=i.split(":")[0]
+# 	# if not( a!="http") or not (a!="https"):
 	# 	list2.append(get_urls("http://imvahonshya.co.rw/"+i))
 
 

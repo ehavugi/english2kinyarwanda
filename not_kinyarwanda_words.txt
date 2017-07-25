@@ -118,4 +118,5 @@ office
 edit
 source
 monkey
-gold
+gold 
+### found kinyarwanda related words

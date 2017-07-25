@@ -372,8 +372,8 @@ Mountain ||| Umusozi
 Office ||| Ibiro
 Organization ||| umuryango
 like a humanitarian organization||| nka umuryango wita ku mbabare
-Peace ||| Amahoro)
-Prison ||| Gereza)
+Peace ||| Amahoro
+Prison ||| Gereza
 Rain ||| Imvura
 Rainy season ||| Igihe cy'imvura
 Sign ||| Icyapa
@@ -383,12 +383,12 @@ Tee-shirt ||| Umupira
 Telephone ||| Tuvugane
 Let's Talk ||| reka tuvugane
 Thief || umujura
-To Answer ||| Gusubiza)
-To Delay ||| Gutinda)
-To Give ||| gutanga)
-To Get Up |||Kubyuka)
-Toilet Paper || Impapuro zo mu musarane)
-To Visit ||| Gusura)
+To Answer ||| Gusubiza
+To Delay ||| Gutinda
+To Give ||| gutanga
+To Get Up |||Kubyuka
+Toilet Paper || Impapuro zo mu musarane
+To Visit ||| Gusura
 tree ||| igiti
 Tree || Urubaho
 Trees ||| Imbaho

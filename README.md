@@ -39,10 +39,10 @@ testing_features.py
 
 
 + command line calling of functions(while in the main folder)
-	+ python k.py function(word)    ### no space between function and words
-		+ python k.py million(34007)
-	+ python k.py function word 
-		+ python k.py million 34007
-	+ python k.py "[(x, tiliyoni(x), million(x) )for x in range(10000)]"  
+	+ python main.py function(word)    ### no space between function and words
+		+ python main.py million(34007)
+	+ python main.py function word 
+		+ python main.py million 34007
+	+ python main.py "[(x, tiliyoni(x), million(x) )for x in range(10000)]"  
 	+  etc --- you can suggest the best way to build an interface(or push one)
 	

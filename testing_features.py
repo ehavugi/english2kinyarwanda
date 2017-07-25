@@ -7,7 +7,7 @@
 #kinya1=open("kinya1.txt").readlines() (encoding errors for texts copied from PDF document)
 
 from code.number2words import *
-#from code.EnglishTagging import *
+from code.EnglishTagging import *
 #from code.ubuke_ubwinshi import *
 from sys import *
 
@@ -85,3 +85,6 @@ if __name__=="__main__":
 		print("except",argv)
 		pass
 		#print (argv [3])
+
+from code.translator import translate
+#print(translate("printer"))

@@ -1,3 +1,313 @@
-  abunganira ||| avocats
-  judge ||| gucira uburanza
-  
+abunganira ||| avocats
+judge ||| umucamanza
+judges ||| amacamanza
+homemade ||| cyakorewe mu rugo
+images ||| amashusho
+image ||| ishusho
+images related ||| amashusho ajyanye
+next ||| igikurikira
+ocean ||| inyanja
+oceans ||| inyanja
+motors ||| moteri
+phone ||| telefone
+telephone ||| telefone
+arduino ||| ariduwino
+electronics ||| elegitoloni
+electricity ||| amashanyarazi
+home page ||| urupapuro rubanza
+programming language ||| ururimi byandikamo porogarame
+laptop ||| mudasobwa igendanwa
+smartphone ||| simatifoni
+browser ||| murebyi
+file ||| fiyili
+edit ||| hindura
+select ||| hitamo
+find ||| shakisha
+view ||| reba
+project ||| umushinga
+tools ||| ibikoresho
+preferences ||| amahitamo
+help ||| ubufasha
+line ||| umurongo
+google search engine ||| ishakisha rya google
+google search ||| ishakisha rya google
+jesus ||| yesu
+morning ||| gitondo
+technology ||| ikoranabuhanga
+information ||| amakuru
+news ||| amakuru
+university ||| ishuri rikuru
+college ||| ishuri rikuru
+institute ||| ikigo
+of ||| cya
+of ||| ya
+order ||| itegeko
+law ||| itegeko
+concepts ||| ibigenga
+techniques ||| uburyo
+build ||| ubaka
+intellegent ||| itegekereza
+system ||| sisiteme
+history ||| ibyakozwe
+queu ||| 
+copyright |||
+subscribe ||| iyandikishe
+sign up ||| iyandikishe
+sign in ||| injira
+editor |||
+production |||
+documentation ||| inyandikonsobanura
+user ||| ukoresha
+user interface |||
+managers ||| manaja
+guide ||| yobora
+buy it now ||| kigure akakanya
+add it to cart ||| cyongere mu gatebo
+announcements ||| amatangazo
+computer science ||| iyiga mudasobwo
+material science ||| iyiga mimerere y'ibintu
+physics ||| ubugenge
+chemistry ||| ubutabire 
+math ||| imibare 
+biology ||| iyiga buzima
+psychology ||| iyiga mwitwarire
+medicine ||| ubuganga
+neuroscience ||| iyaga bwonko
+assignment ||| imikoro
+home work ||| imikoro yo murugo
+exams ||| ibizame
+exam ||| ikizame
+second ||| isegonda
+minute ||| umunota
+minutes ||| iminota
+hour ||| isaha
+day ||| umunsi
+week ||| icyumweru
+month ||| ukwezi
+year ||| umwaka
+dictionary ||| ikoranyamagambo
+translation ||| ihindururimi
+translate ||| hindura ururimi
+native language ||| ururimi kavukire
+ressources ||| ibikenerwa
+monday ||| kuwa mbere 
+tuesday ||| kuwa kabiri
+wednesday ||| kuwa gatatu
+thursday ||| kuwa gatandatu
+friday ||| kuwa gatanu
+saturday ||| kuwa gatandatu
+sunday ||| ku cyumweru
+child ||| umwana
+children ||| abana
+father ||| papa
+mother ||| mama
+dad ||| papa
+mom ||| mama
+grand mother ||| nyogokuru
+grand father ||| sogokuru
+big ||| nini
+firefox ||| fiyafosi
+computer ||| mudasobwa
+kinyarwanda ||| ikinyarwanda
+swahili ||| igiswahili
+english ||| icyongereza 
+french ||| igifaransa
+spanish||| icyesipanyoro 
+arabic|||icyarabu 
+hebrew ||| igiheburayo
+close ||| funga	
+open ||| fungur
+Minimize ||| tubya
+bring || zana
+change |||hindura
+teach|||igisha
+study ||| iga
+pray |||senga
+hide ||| hisha
+work ||| kora
+select ||| hitamo
+pause ||| hagarara
+course ||| isomo
+looking ||| kureba
+create ||| hanga
+job ||| akazi
+hell ||| ukizimu
+alphabet ||| alufabe
+heaven ||| iziru
+God ||| imana
+Firefox ||| firefoxi
+Mozzila ||| Mozira
+logo ||| ikirango
+welcome ||| urakaza neza
+about ||| ibyerekeye
+history||| amateka
+options ||| amahitamo
+preference ||| ibyatoranyizwe
+close ||| funga
+language ||| ururimi
+ok ||| yego
+no ||| oya
+man ||| umugabo
+woman ||| umugore
+boy ||| umuhungu
+girl ||| umukobwa
+boys ||| abahungu
+girls ||| abakobwa
+women ||| abagore
+men ||| abagabo
+source ||| isoko
+monkey ||| inkende
+gold ||| zahabu
+above ||| hejuru
+absence ||| ibura
+adhere ||| kugumira
+before ||| mbere
+behave ||| itware
+cambodge |||| kamboji
+capital ||| umurwa mukuru
+change ||| hinduka
+chapter ||| igice
+charge ||| ongera umuriro
+charge ||| ishuza
+choose ||| hitamo
+circonflexe ||| umuzeruko w'uruziga
+clarative
+class ||| ishuri
+come ||| ngwino
+commence ||| tangira
+start ||| tangira
+comparable ||| bigereranya
+complexe ||| bikomeye
+conjugate ||| tondagura
+consonant ||| ingombazwi 
+culture ||| umuco
+date ||| itariki
+declarative ||| interuro yemeye
+defective ||| cyangiritse
+determinative
+determine ||| gena
+given ||| ibyatanzwe
+enclose ||| mpfundikira
+ensemble ||| huza
+escape ||| hunga
+example ||| urugero
+exclamative ||| bitangaje
+expressive ||| bisonuye
+force ||| imbaraga
+gazette ||| igazeti
+gender ||| igitsina
+justice ||| ubutabera
+telephone line ||| umurongo wa telefoni
+line ||| umurongo
+list ||| urutonde
+lowercase ||| inyuguti ntoya
+minister ||| minisitiri
+mode |||  uburyo
+more ||| ibindi
+morpheme 
+name ||| izina
+nasal ||| bijyanye n'amazuru
+normal ||| ibisanzwe
+nose ||| izuru
+one ||| rimwe
+ordre  ||| order
+market ||| isoko
+origin ||| isoko
+orthography ||| imyandikire
+otherwise ||| niba ataruko 
+page ||| paji
+particle ||| paritikule
+passage ||| umwandiko
+phoneme ||| igice cy'ijambo
+phrase ||| interuro
+place ||| ahantu 
+possess ||| gira
+understand ||| kumva
+purpose ||| impamvu
+repetitive |||  byisoburamo
+replace ||| simbuza
+sense ||| umviriza
+banque ||| banki
+bank ||| banki
+edit ||| hindura
+Submit ||| ohereza 
+errors ||| amakosa
+push ||| sunika
+pull ||| kurura
+new ||| gishya
+functions ||| amafongisiyo
+ad document in kinyarwanda or english kinyarwanda pair words or phrases# 
+build ||| kora
+stuff ||| ibintu
+like ||| kunda
+extension ||| inyongera
+etc. ||| nibindi
+fork this repo ||| isangize iyi repo
+html ||| html
+python ||| python
+java ||| java
+add ||| ongera
+addition ||| guterenya
+multiply ||| kuba
+multiplication ||| gukuba
+subtract ||| kuramo
+subtraction ||| gukuramo
+divide ||| kugabanya
+division ||| kugabanya
+import ||| injiza
+export ||| sohora
+house ||| inzu
+home ||| murugo
+family ||| umuryango
+door ||| umurango
+window ||| idirisha
+lock ||| funga
+prison ||| gereza
+syntax ||| imyandikire
+word ||| ijambo
+book ||| igitabo
+sand ||| ibuye
+ocean ||| inyanja
+sea ||| inyanja
+red ||| gitukura
+bed ||| uburiri
+bag ||| igikapu
+light ||| urumuri
+darkness ||| umwijima
+faith ||| icyizere
+roof ||| igisenge
+metal ||| icyuma
+aluminium ||| aluminiyumu
+diamond ||| diyama
+shoe ||| urukweto
+sim card ||| simukadi
+flash disk ||| falashi disiki
+dvd ||| dvd
+cd ||| cd
+king ||| umwami
+well ||| neza
+queen ||| umwamikazi 
+driver ||| shoferi
+president ||| peresida
+country ||| igihugu
+city ||| umugi
+district ||| akarere
+sector ||| umerenge
+cell ||| akagari
+mayor ||| umunyabanganshingwabikorwa w'akarere
+governer ||| goverineri
+animals ||| imyamaswa
+animal ||| inyamaswa
+pill ||| ikinini
+sentence ||| interuro
+sentence ||| igifungo
+freedom ||| ukwishira ukizana
+rights ||| uburengazira
+right ||| iburo
+left ||| ibumoso
+north ||| ruguru
+south ||| epfo
+east ||| iburasirazuba
+west ||| iburengera zuba
+taboo ||| kirazira
+tabacco ||| itabi
