@@ -1,13 +1,8 @@
-###http://morganinafrica.blogspot.com/2006/02/rwandan-dictionary-kinyarwanda-english.html?m%3D1&grqid=B2-KFwrO&hl=rw-RW&geid=1018
-
 on Sunday, February 26 ,2006 ||| KU CYUMWERU, GASHYANTARE 26, 2006 
-
 Rwandan Dictionary ||| Inkoranyamagabo
 Kinyarwanda English ||| ikinyarwanda icyongereza
 Imana yirirwa ahandi igataha mu Rwanda ||| God spends the day elsewhere, but sleeps in Rwanda
-
 General Greetings ||| gusuhuzanya rusange
-
 Good morning ||| Mwaramutse
 Good afternoon ||| Mwiriwe
 Hello|||Muraho
@@ -49,9 +44,7 @@ Have a good evening|||Umugoroba mwiza
 Have a good night|||Ijoro Rwiza
 Have a good trip|||Urugendo Rwiza
 Excuse me (e.g. if trying to get through a crowd) |||| Ndasaba inzira
-
 Daily Conversation ||| ikiganiro cya buri munsi
-
 What is your profession?|||Ukora iki?
 How is your family?|||Amakuru yo murugo?
 Do you have time?|||Ufite umwanya
@@ -78,9 +71,7 @@ I am married||||Ndubatse
 I am single|||Ndi ingaragu
 Do you have children?|||Ufite abana?
 I don't have|||Simfite
-
 Beverages |||Ibyokunwa
-
 Drinks|||Ibinyobwa
 Milk|||Amata
 Drinking milk|||inshyushyu
@@ -95,11 +86,9 @@ Tea|||Icyayi
 Coffee|||Ikawa
 Fruit juice|||Umutobe w'imbuto
 Coke||| coca
-
 Food|||Ibiryo
 Fruit|||Imbuto
 Vegetable|||imboga
-
 Avocadoes|||Avoka
 Bananas|||Imineke
 Banana mash|||Matoke
@@ -140,10 +129,7 @@ Soup|||Isupu
 Sugar|||Isukari
 Tomatoes|||Inyanya 
 Tree tomatoes|||Ikinyomoro
-
-
 Other Food,Drink-Related  ||| ibindi bijyanye ni ibiryo n'ibibyo kunywa
-
 What are you looking for? ||| Urashaka iki?
 I am looking for ||| ndashaka
 I want ||| Ndashaka
@@ -176,9 +162,7 @@ many |||Byinshi
 Cold ||| Bikonje
 Room temperature/Tepid ||| Inshyushye
 Hot ||| Inshyushye cyane
-
 Money ||| amafaranga
-
 Money ||| Amafaranga
 I don't have money ||| Nta amafaranga mfite
 There is no money ||| Nta amafaranga
@@ -680,8 +664,6 @@ S/he is ||| Ari
 We are ||| Turi 
 You are ||| Muri
 They are ||| Bari
-
-...and because I think it’s important to know how to say “I am not,” here are two ways to say the negative form of this:
 
 I am not ||| Sindi)
 You are not ||| Nturi

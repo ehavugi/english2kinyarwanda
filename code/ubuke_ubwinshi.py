@@ -1,4 +1,7 @@
-from making_kinyarwanda import uturemajambo
+try: 
+	from code.making_kinyarwanda import uturemajambo
+except:
+	from making_kinyarwanda import uturemajambo
 def word_in_kinyarwanda(word):
 		return False
 def post_processor(word):

@@ -7,16 +7,13 @@
 #kinya1=open("kinya1.txt").readlines() (encoding errors for texts copied from PDF document)
 
 from code.number2words import *
-#from code.making_kinyarwanda import *
-from code.EnglishTagging import *
-from code.ubuke_ubwinshi import *
+#from code.EnglishTagging import *
+#from code.ubuke_ubwinshi import *
+from sys import *
 
-#from translator import  translate,eng2Kin,kin,eng
-adj=open("text/adj.txt").readlines()
-kinyarwanda_bible=open("text/bysb.txt", encoding="utf8").read()
-english_bible=open("text/kjv.txt",encoding="utf8").read()
-umushyikirano=open("text/umushyikirano.txt",encoding="utf8").read()
-amategeko=open("text/amategeko.txt",encoding="utf8").readlines()
+kinyarwanda_bible=open("kinyarwanda_stat/kinya_text/bysb_patrick.txt", encoding="utf8").read()
+umushyikirano=open("kinyarwanda_stat/kinya_text/umushyikirano_gov.txt",encoding="utf8").read()
+amategeko=open("kinyarwanda_stat/kinya_text/amategeko_gov.txt",encoding="utf8").readlines()
 
 
 #print(spell(4545))  
@@ -33,18 +30,18 @@ english_text="English is a  great language that is spoken by many persons accros
 
 
 
-print(miliyoni(100))
-number32=10060
-# for i in range(109990):
-# 	number32=i*89
-# 	print(million(number32))
-count_id=7803465
+# print(miliyoni(100))
+# number32=10060
+# # for i in range(109990):
+# # 	number32=i*89
+# # 	print(million(number32))
+# count_id=7803465
 	
-print('{'+'"number"'+":"+'"'+str(number32) +'", "rw": "'+ miliyoni(number32) +'", ' +' "en": "'+million(number32).strip()+'"}')
-print('{'+'"number"'+":"+'"'+str(count_id) +'", "rw": "'+ miliyoni(count_id) +'", ' +' "en": "'+million(count_id).strip()+'"}')
-#print('{'+'"number"'+":"+'"'+ '%s'  +'", "rw": "'+ '%s' +'", ' +' "en": "'+'%s'+'"}'%(str(count_id),miliyoni(count_id),million(count_id).strip()))
-print(thousands(100))
-#import re
+# print('{'+'"number"'+":"+'"'+str(number32) +'", "rw": "'+ miliyoni(number32) +'", ' +' "en": "'+million(number32).strip()+'"}')
+# print('{'+'"number"'+":"+'"'+str(count_id) +'", "rw": "'+ miliyoni(count_id) +'", ' +' "en": "'+million(count_id).strip()+'"}')
+# #print('{'+'"number"'+":"+'"'+ '%s'  +'", "rw": "'+ '%s' +'", ' +' "en": "'+'%s'+'"}'%(str(count_id),miliyoni(count_id),million(count_id).strip()))
+# print(thousands(100))
+# #import re
 #word_lists=[]
 #kinya_word_list=open("text/kinya_word_list.txt", 'w')
 #adverb=re.findall(r"\w+ly", english_bible)
@@ -74,6 +71,17 @@ def kinyarwanda_decomposition(word):
 # 	if a[len(a)-1]=="i":
 # 		a=a[:len(a)-1]+"y"
 # 	print(a, i)
-print(ubwinshi("igare"))
+# print(ubwinshi("igare"))
 # for ijambo in amagambo:
 # 	print(ijambo +" ==> "+ubwinshi(ijambo))
+
+if __name__=="__main__":
+	try:	
+		#print("trying")
+		functionx=str(argv[1])+"("+str(argv[2])+")"
+		if functionx!="None":
+			eval(functionx)
+	except:
+		print("except",argv)
+		pass
+		#print (argv [3])

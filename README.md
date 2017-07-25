@@ -31,12 +31,18 @@ testing_features.py
 + No need to install for testing some features:
 	+ <http://g.havugimana.com/count/224>
 		+ works for numbers and return wording for a number(this case 224)
-	+ <http://g.havugimana.com/ubwinshi/umunyeshuri>
-		+ return the plural form of word icyuki
+	+ <http://g.havugimana.com/ubwinshi/umunyeshuri		+ return the plural form of word icyuki
 			+ currently in development
 			+ You can look at the code and suggest tweaks
 + word list 
 	+ <http:///www.havugimana.com/rw_word_list.txt> 
 
 
-
++ command line calling of functions(while in the main folder)
+	+ python t.py function(word)    ### no space between function and words
+		+ python k.py million(34007)
+	+ python t.py function word 
+		+ python k.py million 34007
+	+ python k.py "[(x, tiliyoni(x), million(x) )for x in range(10000)]"  
+	+  etc --- you can suggest the best way to build an interface(or push one)
+	

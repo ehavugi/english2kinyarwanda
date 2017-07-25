@@ -59,10 +59,13 @@ def na_def(a):
 	return a 
 
 def spell(inputs):
-	number=len(str(inputs))
-	print(number)
+	number=len(str(inputs).strip())
+	#print(inputs)
+	a=" "
 	for i in str(inputs):
- 		print(basic[int(i)-1])
+		a=a+str(basic0[str(i)])+" "
+    
+	return a.strip()
 
 
 def amajana(inputs,urugero=0):
@@ -265,7 +268,7 @@ def speak(number):
 # 	print(tiliyoni(i),":", i)
 #print(tiliyoni(12))
 
-
+#print(miliyoni(13))
 """
 Numbers in English
 

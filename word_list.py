@@ -39,7 +39,6 @@ def kinya(word):
 def count_words(a,frequency):
     for word in a:
         if kinyarwanda_level(word)>0.5 and word_end_vowel(word)  and do_wovel_kinya(word):
-          #  print(word,kinyarwanda_level(word))
             if word in frequency.keys() :         
                 frequency[word]=frequency.get(word)+1
             else:
@@ -60,35 +59,41 @@ for m, n, l in (os.walk("kinyarwanda_stat/kinya_text")):
     for i in l:
         file=m+"/"+i
         print(file)
-        a=open(file,encoding='utf8').read().lower()
-        a_split=re.split("[^a-zA-Z]",a)
-        #listingsa=[]
+        all_wordsin=[]
         counting_skips=0
-        for word in a_split:
-        	
-        	if word in all_words:
-        		counting_skips+=1
-        		#print(counting_skips)
-        		continue
-        	else:
-        		if len(word)>0 and kinya(word):
+        with open(file,encoding='utf8') as a:
+        	#size=len(a.read())
+        	count=0
+	        for j in a:
+	            a_split=re.split("[^a-zA-Z]",j)
+	            for word in a_split:  
+	            	count+=1  	
+	            	if word in all_words or word in all_wordsin:
+	            		#print (word)
+	            		counting_skips+=1
+	            		continue
+	            	else:
+	            		if len(word)>0 and kinya(word):
+	            			counting_skips=0
+	            			all_words.append(word)
         			# if (counting_skips!=0):
            #              continue
                         
         				#print(counting_skips)
 
         			#print(word)
-        			counting_skips=0
-        			all_words.append(word)
+        				
         		    #listingsa.append(word)
        #	print(listingsa.sort())
-        #print(count_words(a,frequency))
-        ordered_words=open("ordered_words.txt","w")
-        print(sorted(all_words))
-        for word in sorted(all_words):
-            ordered_words.write(word+"\n")
-        ordered_words.close()
-
+        #print(count_words(a,frequency)) 
+        
+        all_words=all_words+all_wordsin  
+        with open("ordered_words.txt","w") as ordered_words:
+	        print(sorted(all_words))
+	        for word in sorted(all_words):
+	            ordered_words.write(word+"\n")
+	        
+	       
 print ("end")
 
 

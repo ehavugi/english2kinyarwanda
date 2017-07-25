@@ -69,13 +69,13 @@ def conj_have(subject,verb):
 		if subject  in ['he',"she","it"]:
 			return (subject, "is")
 
-for verb in verbs:
-	for subject in subjects:
-		conj_have(subject,verb)
+# for verb in verbs:
+# 	for subject in subjects:
+# 		conj_have(subject,verb)
 
 
 
-
+# print(conj_have("i","be"))
 
 
 
@@ -122,10 +122,11 @@ def eng_conjugate_regular_verb(verb):
 		return conj
 	return present_tense(verb)
 
+econj=eng_conjugate_regular_verb
+# for verb in regular_verbs:
+# 	#continue
+#     print(econj(verb))
 
-for verb in regular_verbs:
-	#continue
-    print(eng_conjugate_regular_verb(verb))
 
 
 
