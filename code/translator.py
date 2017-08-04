@@ -3,8 +3,10 @@ import os
 #os.path.abspath("c:/english2kinyarwanda/code")
 phrases_morgan=open("c:/english2kinyarwanda/kinyarwanda_stat/eng_kinya/phrases_morgan.txt",encoding="utf8").read()
 me=open("c:/english2kinyarwanda/kinyarwanda_stat/eng_kinya/kinya_eng_me.txt",encoding="utf8").read()
-
-#from .number2words import tiliyoni
+try:
+	from code.number2words import tiliyoni
+except:
+	from number2words import tiliyoni
 texts=phrases_morgan+me
 texts=texts.split("\n")
 phr={}
@@ -57,3 +59,46 @@ def handle_special(sentence,word):
 		return translate(sentence_s[0])+" kandi "+ translate(sentence_s[1])
 	
 #print(translate("happy birthday"))
+
+def handle_plural(word):
+	"""
+	 handling plural forms of words that are not in dictionary, in their plural forms
+	
+	1. layer of checking may be added, e.g looking if the formed words exist in monolingual dict
+	2. +++ other ways to go around this
+
+	3. I can also try handling other words say be opposite, adding "s" and then invoking ubumwe on the returned results 
+	 which I can the cross check in monolingual dictionary for confidence in my results
+	 
+	"""
+	if word.endswith("s"):
+		try :
+			new_word=word[:len(word)-1]
+			new_word_t=translate(new_word)
+		except:
+			pass
+
+		try:
+			word=ubwinshi(new_word_t)
+		except:
+			pass
+	return word
+
+def handle_past(verb):
+	"""
+	template for handling pasts forms that are not recognized in dictionary
+	but are derivatives of a verb that is recognized
+	
+	"""
+
+	if verb.endswith("ed"):
+		try:
+			new_verb=verb[:len(verb)-2]
+			new_verb_t=translate(verb[:len(verb)-2])
+		except:
+			pass
+		try:
+			verb=conjugate(verb,past)
+		except:
+			pass
+		return verb

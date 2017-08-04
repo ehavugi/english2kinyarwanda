@@ -108,16 +108,16 @@ def eng_conjugate_regular_verb(verb):
 		conj_unique=[]
 		for i in subjects:
 			if i in ["i","you","we","you","they"]:
-				conj.append(verb)
+				conj.append(i + " " + verb)
 			elif i in ["he",'she',"it"]:
 				if verb[len(verb)-1]=="o":
 					verb3=verb+"e"
-					conj.append(verb3+"s")
+					conj.append(i +" " + verb3+"s")
 				elif verb[len(verb)-1]=="y" and not(verb[len(verb)-2]  in "aioeu"):
 					verb3=verb[:len(verb)-1]+"ies"
-					return verb3
+					conj.append(i+" "+ verb3)
 				else:
-					conj.append(verb+"s")
+					conj.append(i+" "+verb+"s")
 				#print (conj)
 		return conj
 	return present_tense(verb)
@@ -126,12 +126,6 @@ econj=eng_conjugate_regular_verb
 # for verb in regular_verbs:
 # 	#continue
 #     print(econj(verb))
-
-
-
-
-
-
 
 a_sentence="is it true ?"
 #print(sentence_type(a_sentence))
