@@ -70,8 +70,8 @@ def is_it_kinya_consonant_combo(consonant_sequence):
 def kinyarwanda_level(texts):
 	"""	Kinyarwanda_level takes in a text returns the  a number between 0 and 1 level of  kinyarwanda_ness  
 		for example kinyarwanda-level(["inyarwanda ni indirimbo nyarwanda"]) returns 1.0"""
-	count=0
-	total=0
+	count=0.0
+	total=0.0
 	for i in (consonants_in(texts)):
 		if len(i)>1:
 			total+=1
@@ -92,5 +92,5 @@ def kinyarwanda_level(texts):
 			return 0
 
 
-# print(kinyarwanda_level(["English is great language"]))
-#print(kinyarwanda_level(["Ikinyarwanda ni n'icya mbere"]))
+print(kinyarwanda_level(["English is great language"]))
+print(kinyarwanda_level(["Ikinyarwanda ni n'icya mbere "]))

@@ -11,9 +11,9 @@ from code.EnglishTagging import *
 #from code.ubuke_ubwinshi import *
 from sys import *
 
-kinyarwanda_bible=open("kinyarwanda_stat/kinya_text/bysb_patrick.txt", encoding="utf8").read()
-umushyikirano=open("kinyarwanda_stat/kinya_text/umushyikirano_gov.txt",encoding="utf8").read()
-amategeko=open("kinyarwanda_stat/kinya_text/amategeko_gov.txt",encoding="utf8").readlines()
+kinyarwanda_bible=open("kinyarwanda_stat/kinya_text/bysb_patrick.txt").read()
+umushyikirano=open("kinyarwanda_stat/kinya_text/umushyikirano_gov.txt").read()
+amategeko=open("kinyarwanda_stat/kinya_text/amategeko_gov.txt").readlines()
 
 
 #print(spell(4545))  
@@ -64,6 +64,7 @@ def kinyarwanda_decomposition(word):
 	### use the power of regular expressions to bring forth indomo+umusozo+root+other particles on text
 	##using recognized set of roots(that can be manually or ...updated)
 	##
+	patterns=[(a|u|i|e|o)*(mu|ba|mi|ri|ma|ki|bi|n|ru|ka|tu|bu|ku|ha)*()]
 	return 
 		
 # for  i in adverb:

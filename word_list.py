@@ -61,7 +61,7 @@ for m, n, l in (os.walk("kinyarwanda_stat/kinya_text")):
         print(file)
         all_wordsin=[]
         counting_skips=0
-        with open(file,encoding='utf8') as a:
+        with open(file) as a:
         	#size=len(a.read())
         	count=0
 	        for j in a:

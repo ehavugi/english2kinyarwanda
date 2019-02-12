@@ -1,4 +1,4 @@
-bible_en=open("../text/kjv.txt").readlines()
+bible_en=open("../kinyarwanda_stat/kinya_text/kjv.txt").readlines()
 verbs=["buy","pray","say","find","search"]
 lines=0
 words=[]

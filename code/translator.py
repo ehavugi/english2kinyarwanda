@@ -1,8 +1,8 @@
 import re
 import os
 #os.path.abspath("c:/english2kinyarwanda/code")
-phrases_morgan=open("c:/english2kinyarwanda/kinyarwanda_stat/eng_kinya/phrases_morgan.txt",encoding="utf8").read()
-me=open("c:/english2kinyarwanda/kinyarwanda_stat/eng_kinya/kinya_eng_me.txt",encoding="utf8").read()
+phrases_morgan=open("../kinyarwanda_stat/eng_kinya/phrases_morgan.txt").read()
+me=open("../kinyarwanda_stat/eng_kinya/kinya_eng_me.txt").read()
 try:
 	from code.number2words import tiliyoni
 except:
@@ -102,3 +102,5 @@ def handle_past(verb):
 		except:
 			pass
 		return verb
+
+print(translate("Happy birthday wow"))
